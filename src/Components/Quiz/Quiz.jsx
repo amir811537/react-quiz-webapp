@@ -85,7 +85,7 @@ const Quiz = () => {
             <hr />
             {result ? (
                 <>
-                    <h2>Your Scored {score} out of {data.length} in {totalTime - time} seconds</h2>
+                    <h3>Your Scored {score} out of {data.length} in {totalTime - time} seconds</h3>
                     <button onClick={reset}>Reset</button>
                 </>
             ) : (
