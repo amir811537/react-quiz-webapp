@@ -80,12 +80,12 @@ const Quiz = () => {
     };
 
     return (
-        <div className="container">
+        <div className="container">surge
             <h1> Quiz App</h1>
             <hr />
             {result ? (
                 <>
-                    <h3>Your Scored {score} out of {data.length} in {totalTime - time} seconds</h3>
+<h3>Your Scored {score} out of {data.length} in {Math.floor((totalTime - time) / 60)} minutes  {(totalTime - time) % 60} seconds</h3>
                     <button onClick={reset}>Reset</button>
                 </>
             ) : (
